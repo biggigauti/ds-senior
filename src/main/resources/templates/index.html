@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link th:href="@{/css/styles.css}" rel="stylesheet"/>-->
+    <title>Smbl - Symbol Recognition </title>
+</head>
+<body>
+<section class="container">
+    <div style="width: 120px" id="toolbar">
+        <h1 style="text-align: center">Smbl</h1>
+        <button id="clear">Clear</button>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="drawing-board">
+        <canvas width='400' height='400' style="border: 1px solid red" id="drawing-canvas"></canvas>
+    </div>
+</section>
+<script th:src="@{/js/indexTest.js}"></script>
+</body>
+</html>
