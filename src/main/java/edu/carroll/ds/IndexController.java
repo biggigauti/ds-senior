@@ -33,7 +33,7 @@ public class IndexController {
     }
 
     private void runPython(String data) throws IOException, InterruptedException {
-        ProcessBuilder pb = new ProcessBuilder("python3", "src/main/resources/static/python.py", data);
+        ProcessBuilder pb = new ProcessBuilder("python", "src/main/resources/static/python.py", data);
         pb.redirectErrorStream(true);
 
         Process p = pb.start();
