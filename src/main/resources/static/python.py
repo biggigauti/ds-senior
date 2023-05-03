@@ -20,8 +20,10 @@ symbol.append(gsValue)
 symbol = np.array(symbol)
 
 
+# fixed pathing
 model = tf.keras.models.load_model('src/main/resources/static/myModel')
 
+# answer is a list of lists, need index 0 to properly assess values instead of list of values
 answer = model.predict(symbol)
 
 highest = 0

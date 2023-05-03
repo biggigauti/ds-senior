@@ -33,6 +33,8 @@ public class IndexController {
     }
 
     private void runPython(String data) throws IOException, InterruptedException {
+        // here I would use a try statement with python3 and then except with just plain "python"
+        // either that or if you can find a way to get the OS specific command for python that would work too
         ProcessBuilder pb = new ProcessBuilder("python", "src/main/resources/static/python.py", data);
         pb.redirectErrorStream(true);
 
