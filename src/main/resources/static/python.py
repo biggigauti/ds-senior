@@ -1,5 +1,4 @@
 import sys
-print(sys.version)
 import urllib.request
 from PIL import Image
 import numpy as np
