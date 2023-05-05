@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 const drawing = document.getElementById('drawing-board');
 
 let isPainting = false;
-let lineWidth = 2;
+let lineWidth = 1;
 let startX;
 let startY;
 
