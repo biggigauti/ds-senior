@@ -44,8 +44,7 @@ public class IndexController {
 
         int exitCode = p.waitFor();
 
-        System.out.println("Exit code = " + exitCode);
-        System.out.println("Results = " + results);
+        System.out.println("Prediction: Symbol " + results.get(results.size()-1));
     }
 
     private List<String> readProcessOutput(InputStream input) {
