@@ -7,3 +7,6 @@ This is my Data Science/Computer Science senior project for Carroll College. Thi
 
 ### Step 1: Pull Project from GitHub
 
+´´´terminal
+$ test
+´´´
