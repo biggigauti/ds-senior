@@ -13,9 +13,13 @@ $ git clone https://github.com/biggigauti/ds-senior.git
 
 ### Step 2: Run the program and navigate to the web application
 
+There are two ways to run the application. One of them is using Gradle and the other is using an IDE like IntelliJ. Below I have the instructions for Gradle:
+
 ```terminal
 $ ./gradlew bootRun
 ```
+
+For IntelliJ, import the program, make sure Gradle is loaded, build the program, and run the "DsApplication.java" file.
 
 In a browser of your choice, enter "localhost:8080".
 
