@@ -2,6 +2,11 @@ package edu.carroll.ds.json.model;
 
 import java.util.Objects;
 
+/**
+ * This is the JSON model that is used to make sense of data that we POST from the web application.
+ *
+ * We have to objectify the data to help Java understand it.
+ */
 public class DataModel {
     private String data;
 
